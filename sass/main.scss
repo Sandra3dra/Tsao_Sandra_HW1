@@ -45,3 +45,42 @@ a:hover, a:active
 
 //....................................................................
 
+@mixin col() {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin row() {
+    display: flex;
+    flex-direction: row;
+}
+
+#mainNav {
+    position: fixed;
+    right: 10px;
+    z-index: 99;
+    ul li {
+        @include col();
+        border-right: 1px solid black;
+        text-align: right;
+        font-size: 13px;
+        font-family: $p-font;
+        font-weight: bold;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-right: 3px;
+        a {
+            color: black;
+            &:hover {
+                color: rgb(100, 198, 255);
+                font-size: 15px;
+                // animation: ease 1s;
+            }
+        }
+        img {
+            display: none;
+        }
+    }
+
+}
+
