@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAK,CACD,KAAK,CAAE,GAAG,CACV,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,MAAM",
-"sources": ["../../sass/main.scss"],
-"names": [],
-"file": "main.css"
-}
+{"version":3,"sourceRoot":"","sources":["../../sass/main.scss"],"names":[],"mappings":"AAMA,QACI,aAGJ,KACI,uBAGJ,uBACI,eAGJ,UACI,WACA,SACA,UACA,kBAGJ,WACI,WACA,iBACA,gBAGJ,GACI,qBAGJ,iBAEC,qBAGD,iBAEC","file":"main.css"}
