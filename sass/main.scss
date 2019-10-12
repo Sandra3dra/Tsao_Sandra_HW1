@@ -1,5 +1,47 @@
-main {
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
+// sass --watch sass:public/css --style compressed
+// font-family: 'Mansalva', cursive;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Montserrat Alternates', sans-serif;
+@import "vars";
+
+.hidden {
+    display: none;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+img, embed, object, video {
+    max-width: 100%; 
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 100%;
+    max-width: 1360px;
+    min-width: 320px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link, a:visited
+{
+ text-decoration:none;
+}
+
+a:hover, a:active
+{
+ text-decoration:none;
+}
+
+//....................................................................
+
