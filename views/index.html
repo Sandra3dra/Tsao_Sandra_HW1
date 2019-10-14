@@ -17,11 +17,11 @@
                 <nav id="mainNav">
                     <h2 class="hidden">Main Navigation</h2>
                     <ul>
-                        <li><a href="#vidSec">INTRO</a><img src="images/pencil.svg" alt="penci icon" class="pen p1"></li>
-                        <li><a href="#features">FEATURES</a><img src="images/pencil.svg" alt="pencl icon" class="pen p2"></li>
-                        <li><a href="#why">WHY BAMBOO</a><img src="images/pencil.svg" alt="penil icon" class="pen p3"></li>
-                        <li><a href="#gallery">GALLERY</a><img src="images/pencil.svg" alt="pecil icon" class="pen p4"></li>
-                        <li><a href="#shop">SHOP</a><img src="images/pencil.svg" alt="pncil icon" class="pen p5"></li>
+                        <li><a href="#vidSec">INTRO</a></li>
+                        <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#why">WHY BAMBOO</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#shop">SHOP</a></li>
                     </ul>
                 </nav>
             </div>
@@ -43,17 +43,17 @@
                         <p>Take handwritten notes and ideas further with Bamboo Slate. Write naturally with pen on any paper, then store, shape and share your notes and ideas in the cloud.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row" id="icons">
                     <div class="IconC">
                         <img src="images/size.svg" alt="size icon">
                         <h3>Available in small & large sizes</h3>
                     </div>
                     <div class="IconC">
-                        <img src="images/basic_control.svg" alt="basic_control icon">
+                        <img class="smol" src="images/basic_control.svg" alt="basic_control icon">
                         <h3>Require Wacom inkspace app</h3>
                     </div>
                     <div class="IconC">
-                        <img src="images/hands.svg" alt="hands icon">
+                        <img class="smol" src="images/hands.svg" alt="hands icon">
                         <h3>Right or Left-handed use</h3>
                     </div>
                     <div class="IconC">
@@ -61,7 +61,7 @@
                         <h3>Three colours available</h3>
                     </div>
                     <div class="IconC">
-                        <img src="images/connections.svg" alt="connections icon">
+                        <img class="smol" src="images/connections.svg" alt="connections icon">
                         <h3>Micro-USB,Bluetooth®</h3>
                     </div>
                     <div class="IconC">
@@ -74,37 +74,40 @@
         <section id="why">
             <div class="col">
                 <div class="row">
-                    <h2>Why Bamboo™ Slate</h2>
-                    <p>There's no limit to your ideas with Bamboo Slate. Write on any paper and with a push of a button convert your handwritten notes and sketches into digital files. Don't worry if you're not near your mobile device, you can store up to 100 pages on Bamboo Slate and sync later.</p>
-                    <img src="images/bamboo_2.jpg" alt="bamboo 2">
+                    <div class="col">
+                        <h2>Why Bamboo™ Slate</h2>
+                        <p>There's no limit to your ideas with Bamboo Slate. Write on any paper and with a push of a button convert your handwritten notes and sketches into digital files. Don't worry if you're not near your mobile device, you can store up to 100 pages on Bamboo Slate and sync later.</p>
+                    </div>
+                    <img id="bamboo2" src="images/bamboo_2.jpg" alt="bamboo 2">
                 </div>
                 <div class="row">
-                    <img src="images/bamboo_3.png" alt="bamboo 3">
+                    <img id="bamboo3" src="images/bamboo_3.jpg" alt="bamboo 3">
                     <div class="col">
                         <h2>Export To The Cloud And Beyond</h2>
                         <p>Sync your notes with the Inkspace cloud service for access on all your devices or export files directly to other cloud service such as Dropbox®, Evernote® or OneNote®. The Wacom Inkspace app also supports exporting your work as JPG, PNG, PDF and WILL file format.</p>
-                        <img src="images/twoIcon.png" >
+                        <img src="images/twoIcon.png" alt="two icons" id="twoIcon">
                     </div>
                 </div>
             </div>
         </section>
         <section id="gallery">
-            <h2 class="hidden">Gallery</h2>
+            <h2>Gallery</h2>
             <div id="placement">
-                <img src="images/g_1.jpg">
-                <img src="images/g_2.png">
-                <img src="images/g_3.jpg">
-                <img src="images/g_4.jpg">
-                <img src="images/g_5.jpg">
-                <img src="images/g_6.jpg">
-                <img src="images/g_7.jpg">
-                <img src="images/g_8.jpg">
-                <img src="images/g_9.png">
+                <img src="images/g_1.jpg" alt="gallery 1" id="_1" class="galleries">
+                <img src="images/g_2.jpg" alt="gallery 2" id="_2" class="galleries">
+                <img src="images/g_3.jpg" alt="gallery 3" id="_3" class="galleries">
+                <img src="images/g_4.jpg" alt="gallery 4" id="_4" class="galleries">
+                <img src="images/g_5.jpg" alt="gallery 5" id="_5" class="galleries">
+                <img src="images/g_6.jpg" alt="gallery 6" id="_6" class="galleries">
+                <img src="images/g_7.jpg" alt="gallery 7" id="_7" class="galleries">
+                <img src="images/g_8.jpg" alt="gallery 8" id="_8" class="galleries">
+                <img src="images/g_9.jpg" alt="gallery 9" id="_9" class="galleries">
             </div>
+            <div id="showHere"><h5 id="h5" class="">Click on images above to view!</h5></div>
         </section>
         <footer id="mainFooter">
             <img src="images/bamboo_slate.png" alt="bamboo slate logo">
-            <a href="https://www.wacom.com/en-us/products/smartpads/bamboo-slate#Specifications">Copyright© 2018-2019 Wacom. All Rights Reserved.</a>
+            <a href="https://www.wacom.com/en-us/products/smartpads/bamboo-slate#Specifications"><p>Copyright© 2018-2019 Wacom. All Rights Reserved.</p></a>
         </footer>
     </div>
 
