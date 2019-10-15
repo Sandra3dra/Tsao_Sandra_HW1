@@ -5,7 +5,7 @@
 Take handwritten notes and ideas further with Bamboo Slate. Write naturally with pen on any paper, then store, shape and share your notes and ideas in the cloud.
 
 ## Website is live at Heroku
-Head there now - https://github.com/SandraTsao/Tsao_Sandra_HW1.git 
+Head there now - https://tsao-sandra-hw1.herokuapp.com/
 
 
 ## Built with
